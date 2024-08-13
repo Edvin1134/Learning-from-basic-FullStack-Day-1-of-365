@@ -1,0 +1,287 @@
+<!-- HTML Summary -->
+<!-- tables: rows, columns and headers
+  Images
+  Lists: Ordered List and Unordered list 
+ -->
+
+<!-- CSS Summary -->
+<!-- Backgrounds, border, margins and padding -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Two of 365</title>
+
+    <style>
+        body {
+            background-image: url("./dayTwoPicture/pexels-invisiblepower-1076885.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: fixed;
+            background-attachment: fixed;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            /* pad: 3px; */
+
+        }
+
+        th,
+        td {
+            border-style: dotted;
+        }
+
+        select {
+            width: 100%;
+
+        }
+
+        /* select option {
+            font-size: 25px;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>Day two of learning Full Stack: Starting with HTML and CSS</h1>
+    <hr>
+    <h2>First we are learning Tables: headers, rows and columns</h2>
+    <hr>
+
+    <table style="width: 100%;">
+        <tr>
+            <th colspan="2">Name First and Last</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Contact Number</th>
+            <th>Education</th>
+            <th>Institute Name</th>
+        </tr>
+        <tr>
+            <td colspan="2">Asmita Rana</td>
+            <td>20</td>
+            <td>Thapathali</td>
+            <td>+977-9825369545</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Jagadamba Poudel</td>
+            <td>21</td>
+            <td>New road</td>
+            <td>+977-9825256485</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Asmita Tharata</td>
+            <td>22</td>
+            <td>Gaupalika</td>
+            <td>+977-9825654785</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Gore Shrestha</td>
+            <td>26</td>
+            <td>Kathmandu/td>
+            <td>+977-9836547896</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Janak Tamang</td>
+            <td>19</td>
+            <td>Pokhara</td>
+            <td>+977-9825476563</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Manik Rana</td>
+            <td>25</td>
+            <td>Baneshwor</td>
+            <td>+977-9836547822</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Anil Rana</td>
+            <td>55</td>
+            <td>Tanahau</td>
+            <td>+977-9823654856</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Asutosh Rana</td>
+            <td>29</td>
+            <td>Kathmandu</td>
+            <td>+977-9845632548</td>
+            <td>
+                <select name="education" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">University</option>
+                    <option value="college">College</option>
+                    <option value="school">School</option>
+                </select>
+            </td>
+            <td>
+                <select name="college/school" id="school/college">
+                    <option value="select">Select from below</option>
+                    <option value="university">Purbanchal university</option>
+                    <option value="university">Kathamndu University</option>
+                    <option value="university">Columbian University</option>
+                    <option value="university">Others</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <p>Finished creating the table</p>
+    <br>
+    <!-- Inserting Images -->
+    <hr>
+    <h4>Images</h4>
+    <hr>
+    <h2>Picture 1:</h2>
+    <img src="./dayTwoPicture/pexels-photo-1055613.jpg" alt="picture" usemap="#workmap" width="500px" height="500px">
+    <p>This is the captured photo</p>
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="./dayTwoPicture/pexels-photo-3494648.jpg">
+    </map>
+    <h2>Picture 2:</h2>
+    <img src="./dayTwoPicture/pexels-photo-1671325.jpg" alt="picture" width="500px" height="500px">
+    <p>This is the captured photo</p>
+    <h2>Picture 3:</h2>
+    <img src="./dayTwoPicture/pexels-photo-1722206.jpg" alt="picture" width="500px" height="500px">
+    <p>This is the captured photo</p>
+    <h2>Picture 4:</h2>
+    <img src="./dayTwoPicture/pexels-photo-1738986.jpg" alt="picture" width="500px" height="500px">
+    <p>This is the captured photo</p>
+    <h2>Picture 5:</h2>
+    <img src="./dayTwoPicture/pexels-photo-2970287.jpg" alt="picture">
+    <p>This is the captured photo</p>
+    <h2>Picture 6:</h2>
+    <img src="./dayTwoPicture/pexels-photo-3494648.jpg" alt="picture">
+    <p>This is the captured photo</p>
+
+</body>
+
+</html>
